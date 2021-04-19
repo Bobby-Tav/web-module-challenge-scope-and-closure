@@ -70,7 +70,9 @@ a. Where is closure used in this code? How can you tell?
 
 The closure is in name the reason is because the function that is inside personalDice() does not have a variable named 'name'.
 
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? When calling 'dansRoll the thing that is always the same is name and the thing that will always be different is 'newRoll'
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+
+When calling 'dansRoll the thing that is always the same is name and the thing that will always be different is 'newRoll'
 
 c. What is the lexical scope of `newRoll`? 
 
