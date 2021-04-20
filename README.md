@@ -44,7 +44,7 @@ Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
 
-Closure is when a function inside another function takes a variable from the outer function out of its scope.
+Closure is when a function inside another function takes a variable from the outer function which wou out of its scope.
 
 2. Study the following code, then answer the questions below.
 
@@ -68,15 +68,15 @@ dansRoll();
 
 a. Where is closure used in this code? How can you tell?
 
-The closure is in name the reason is because the function that is inside personalDice() does not have a variable named 'name'.
+The closure is in name reason is because the function that is inside personalDice() does not have a variable named 'name'.
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
 
-When calling 'dansRoll the thing that is always the same is name and the thing that will always be different is 'newRoll'
+When calling 'dansRoll the thing that is always the same is name and the thing that will always be different is 'newRoll'.
 
 c. What is the lexical scope of `newRoll`? 
 
-The lexical scope of 'newRoll is name.
+The lexical scope of 'newRoll' is personalDice.
 
 
 ### Task 3 - Stretch Goals
