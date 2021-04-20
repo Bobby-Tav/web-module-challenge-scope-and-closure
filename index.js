@@ -177,6 +177,7 @@ function scoreboard(innScrCb,inningCb,numOfInn) {
   }else{
     game.push(`Final Score: Away ${totalAway} - Home ${totalHome}`);
   }
+  return game;
 }
 
 
